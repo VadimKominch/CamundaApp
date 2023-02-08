@@ -1,0 +1,14 @@
+camunda:
+  bpm:
+    admin-user:
+      id: demo
+      password: demo
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:17432/application_camunda
+    password: password
+
+jpa:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:17432/application
+    username: vadim
+    password: password
